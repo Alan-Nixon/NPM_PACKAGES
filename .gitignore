@@ -1,0 +1,5 @@
+testPackages/
+valid_token_generator/node_modules/
+userAuthentication/node_modules/
+valid_token_generator/.env
+userAuthentication/.env
