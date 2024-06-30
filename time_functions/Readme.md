@@ -54,9 +54,17 @@ functions are :
 
 6. generateOtp
 
-    This functions generates a 6 digits number always. it must be unique it can be used for generating otp does'nt need any arguments call the function it return 6 digits that's it 
+   This functions generates otp based on you give the digits . it always unique it can be used for generating otp it need one argument to call the function it return number of digits that's it
+   for ex:
+
+   generateOtp(4) return 1260
+   generateOtp(6) return 252000
 
 
+7. xKeyGenerator
+
+   This functions generates key of length we given and return. It includes Alphabetic characters and special chars except (Double quote), (Single quote), (Opening parenthesis), (Closing parenthesis), (Asterisk), (Comma),(Period),(Slash),(Colon),(Semicolon),(Less than),(Greater than),
+   (Opening square bracket),(Backslash), (Closing square bracket),(Caret), (Backtick),(Tilde)
 
 package name is util-functions and the functions that i created from the problems that i have faced it will have updates in future and if you have any suggetions or error occurs then contact me in this email
-"alannixon2520@gmail.com" if you have any problems then share it with me. i will try to add the functions in my package  
+"alannixon2520@gmail.com" if you have any problems then share it with me. i will try to add the functions in my package

@@ -1,6 +1,6 @@
 {
   "name": "util-functions-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "it's a package to done operations based on the time",
   "main": "index.js",
   "scripts": {
