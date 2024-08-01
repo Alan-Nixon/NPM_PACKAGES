@@ -66,5 +66,32 @@ functions are :
    This functions generates key of length we given and return. It includes Alphabetic characters and special chars except (Double quote), (Single quote), (Opening parenthesis), (Closing parenthesis), (Asterisk), (Comma),(Period),(Slash),(Colon),(Semicolon),(Less than),(Greater than),
    (Opening square bracket),(Backslash), (Closing square bracket),(Caret), (Backtick),(Tilde)
 
+8. isEndCentury 
+
+   This function one parameter as string or number and return if the year is end of century. The string must only contains numbers for ex:
+
+    isEndCentury(2000) return true
+    isEndCentury(1905) return false
+
+9. isLeapYear
+
+   As the name of the function it also find the input year is leap or not as we know 2024 was a leap year if you pass isLeapYear(2024) then it returns true and if it is isLeapYear(1900) then returns false if any NaN things send like isLeapYear("YEAR") then it will throw "Invalid digits" as we cant calculate that
+
+10. dayDifference
+
+   This function meant for finding the difference of days between two dates like when you pass dayDifference("08-31-2005","08-16-2005") returns 15 it will only return absolute value like when we subtracting each days then if it is -15 it returns 15 
+
+   note: date must in format MM-DD-YYYY
+
+11. getDay
+
+   This functions returns day of the date like if the date is 30 6 2024 then it is sunday pass the argument as MM-DD-YYYY
+
+12. daysOfYear
+
+   This function returns how much days of the year is completed now if it is leap year then the february   
+
+
+
 package name is util-functions and the functions that i created from the problems that i have faced it will have updates in future and if you have any suggetions or error occurs then contact me in this email
 "alannixon2520@gmail.com" if you have any problems then share it with me. i will try to add the functions in my package
